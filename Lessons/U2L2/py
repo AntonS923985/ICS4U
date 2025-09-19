@@ -1,8 +1,0 @@
-inches = 10 ** 12
-(feet, inches) = divmod(inches, 3)
-(yards, feet) = divmod(feet, 1760)
-(miles, yards) = divmod(yards, 24)
-(moon, miles) = divmod(miles, 1461)
-
-print("One trillion inches is the same as going to the moon and back")
-  
